@@ -1,0 +1,126 @@
+.bg-circle {
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.548);
+    float: left;
+    margin-right: 20px;
+}
+
+.number-size {
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: 9%;
+    left: 19%;
+}
+
+.text-width {
+    margin-left: 52px;
+}
+
+/* transportes */
+
+.box-bg {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.tab-title {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tab-title:hover {
+    color: black;
+}
+
+.tab-option {
+    border-bottom: 1px solid #f0592a;
+}
+
+.tab-content {
+    color: black !important;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.section-title {
+    font-size: 16px !important;
+    padding-top: 15px;
+    margin-bottom: 4% !important;
+}
+
+/* modais */
+
+#porto .modal-header, #lisboa .modal-header {
+    padding: 1rem 1rem 0 1rem !important;
+    border-bottom: 0 !important;
+}
+
+#porto .modal-content, #lisboa .modal-content {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px !important;
+    border: none;
+    outline: none;
+}
+
+/* 
+#porto .modal-header .btn-close, #lisboa .modal-header .btn-close {
+    color: #f0592a !important;
+} */
+
+#porto .modal-body .align-line, #lisboa .modal-body .align-line {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#porto .modal-body .align-line .icon-color, #lisboa .modal-body .align-line .icon-color {
+    color: #f0592a;
+}
+
+#porto .modal-body .align-line p, #lisboa .modal-body .align-line p {
+    margin: auto 0 auto 20px !important;
+    font-weight: 400 !important;
+}
+
+#porto .modal-body .m-title-size, #lisboa .modal-body .m-title-size {
+    margin: auto 0 auto 20px !important;
+    font-weight: 500 !important;
+}
+
+/*MEDIA QUERIES*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 576px) {
+    .box-bg {
+        width: 100%;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .box-bg {
+        width: 100%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    .box-bg {
+        width: 80%;
+    }
+}

@@ -1,0 +1,282 @@
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+  width: 8rem;
+  height: auto;
+}
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  border: #f0592a solid 1px;
+  border-radius: 1.625rem;
+}
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #f0592a;
+}
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 1px solid #f0592a;
+  border-right: 1px solid #f0592a;
+  transform: rotate(45deg);
+}
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.25rem 0;
+  margin: 0 0 0 1.5rem;
+  color: #f0592a;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon.arrow {
+  transform: translate(0.5rem, 0);
+}
+button:hover .button-text {
+  color: #f0592a;
+}
+
+/*Botão do carousel branco*/
+button.learn-more_carousel {
+  width: 9rem;
+  height: auto;
+}
+button.learn-more_carousel .circle_carousel {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffffff;
+  border-radius: 1.625rem;
+}
+button.learn-more_carousel .circle_carousel .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #000000;
+}
+button.learn-more_carousel .circle_carousel .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more_carousel .circle_carousel .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 9px;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  transform: rotate(45deg);
+}
+button.learn-more_carousel .button-text_carousel {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.25rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+button:hover .circle_carousel {
+  width: 100%;
+}
+button:hover .circle_carousel .icon.arrow {
+  transform: translate(1rem, 0);
+}
+button:hover .button-text_carousel {
+  color: #000000;
+}
+
+/*BTN White border -> secção laranja da home*/
+button.learn-more_white {
+  width: 8rem;
+  height: auto;
+}
+button.learn-more_white .circle_white {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  border: #ffffff solid 1px;
+  border-radius: 1.625rem;
+}
+button.learn-more_white .circle_white .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffffff;
+}
+button.learn-more_white .circle_white .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.learn-more_white .circle_white .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  transform: rotate(45deg);
+}
+button.learn-more_white .button-text_white {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.25rem 0;
+  margin: 0 0 0 1.5rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+button:hover .circle_white {
+  width: 100%;
+}
+button:hover .circle_white .icon.arrow {
+  transform: translate(0.5rem, 0);
+}
+button:hover .button-text_white {
+  color: #ffffff;
+}
+
+/*Botão testemunho grande*/
+button.learn-more.testemunho{
+  width: 14rem !important;
+  margin-top: 2%;
+}
+
+/*Botão grande iniciar sessão*/
+button.learn-more.iniciaSessao{
+  width: 10rem !important;
+}
+
+/*Botão voltar para trás*/
+button.BTNback {
+  width: 7rem;
+  height: auto;
+}
+button.BTNback .circle_BTNback {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  border: #000000 solid 1px;
+  border-radius: 1.625rem;
+}
+button.BTNback .circle_BTNback .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #000000;
+}
+button.BTNback .circle_BTNback .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+button.BTNback .circle_BTNback .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 6px;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000;
+  transform: rotate(225deg);
+}
+button.BTNback .button-text_BTNback{
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.25rem 0;
+  margin: 0 0 0 1.5rem;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+button:hover .circle_BTNback {
+  width: 100%;
+}
+button:hover .circle_BTNback .icon.arrow {
+  transform: translate(0.5rem, 0);
+}
+button:hover .button-text_BTNback {
+  color: #000000;
+}

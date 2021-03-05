@@ -1,0 +1,66 @@
+.create-btn-bg-orange {
+  background-color: #f0592a;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.create-btn-bg-orange:hover {
+  text-decoration: none;
+}
+.create-btn-container div {
+  display: flex;
+  align-items: center;
+}
+
+.link-align {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.create-btn-title {
+  margin-bottom: 0 !important;
+  overflow-wrap: break-word;
+  color: white;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+.create-btn-icon {
+  width: auto;
+  height: 45px;
+  color: white;
+}
+.create-btn-arrow {
+  color: white;
+  font-size: 30px;
+}
+
+/*Fixar para testemunhos*/
+.fixarBTN {
+  top: 56px;
+  z-index:1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .create-btn-title {
+    font-size: 17px !important;
+  }
+  .create-btn-arrow {
+    font-size: 20px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .create-btn-arrow {
+    font-size: 20px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .create-btn-icon {
+    height: 55px;
+  }
+}

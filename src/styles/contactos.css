@@ -1,0 +1,77 @@
+#cEstrutura .accordion-button {
+    font-weight: 500 !important;
+}
+
+#cEstrutura .marginB-p p {
+    margin-bottom: 10px !important;
+}
+
+#cEstrutura .marginB-p p.p-bold {
+    font-weight: 500 !important;
+}
+
+#cEstrutura .marginB-p p.marginT-p {
+    margin-top: 1.5rem;
+}
+
+#cEstrutura .marginB-p img {
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#cEstrutura .marginB-p .break_line {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+#cEmergencia .accordion-button {
+    font-weight: 500 !important;
+}
+
+#cEmergencia .marginB-p p {
+    margin-bottom: 10px !important;
+}
+
+#cEmergencia .marginB-p p.p-bold {
+    font-weight: 500 !important;
+}
+
+#cEmergencia .marginB-p p.marginT-p {
+    margin-top: 1.5rem;
+}
+
+#cEmergencia .marginB-p img {
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#cEmergencia .marginB-p .break_line {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}

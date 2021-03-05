@@ -1,0 +1,65 @@
+.editProfile select {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #ffffff !important;
+}
+
+.editProfile .mandatory {
+  color: #f0592a !important;
+}
+
+.editProfile .card {
+  padding: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background: none;
+  border: none !important;
+  border-radius: 10px;
+}
+.editProfile .btnForm {
+  background-color: #f0592a;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 10rem;
+  margin-top: 3%;
+}
+.editProfile .btnForm:hover, .editProfile .btnFormCancelar:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.editProfile .btnFormCancelar {
+  margin-right: 10px;
+  color: #f0592a;
+  background-color: #ffffff;
+  border: 1px solid #f0592a;
+  border-radius: 20px;
+  margin-top: 3%;
+  width: 10rem;
+}
+
+.editProfile a {
+  text-decoration: none;
+  color: #000000;
+}
+.editProfile svg{
+  border-radius: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .editProfile .profileIMG {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .editProfile .profileIMG {
+    height: 16rem;
+    width: 16rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+  }
+}

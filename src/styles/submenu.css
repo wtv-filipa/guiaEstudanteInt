@@ -1,0 +1,244 @@
+.submenu-geral {
+  background-color: #fff !important;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 58.72px;
+  z-index: 9;
+}
+
+.submenu-row div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.page-subtitles li {
+  position: relative;
+}
+
+.page-title {
+  color: #000000 !important;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.active {
+  color: #f0592a;
+  text-decoration: none;
+}
+
+#preparar-submenu, #estudar-submenu, #chegada-submenu, #processo-submenu {
+  padding-top: 4px;
+}
+
+.submenu-link {
+  color: #000000;
+  font-size: 15px !important;
+  font-weight: 400;
+  line-height: 2.9rem !important;
+  text-decoration: none !important;
+}
+
+.submenu-link:hover, .submenu-link:active, .submenu-link:active {
+  color: #f0592a !important;
+  text-decoration: none !important;
+}
+
+.arrow-btn-submenu:hover, .arrow-btn-submenu:active, .arrow-btn-submenu:focus {
+  color: #f0592a !important;
+  text-decoration: none !important;
+}
+
+.submenu-link:hover+.arrow-btn-submenu, .submenu-link:active+.arrow-btn-submenu, .submenu-link:focus+.arrow-btn-submenu {
+  color: #f0592a !important;
+  text-decoration: none !important;
+}
+
+.submenu-btn {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+}
+
+.submenu-btn#cidadeaveiro {
+  width: calc(100% - 150.78px);
+}
+
+.submenu-btn#processoint {
+  width: calc(100% - 211.8px);
+}
+
+.submenu-btn#chegadaaveiro {
+  width: calc(100% - 156.44px);
+}
+
+.submenu-btn#estudarua {
+  width: calc(100% - 126.58px);
+}
+
+.submenu-btn#prepararviagem {
+  width: calc(100% - 166.16px);
+}
+
+.submenu-btn i {
+  float: right;
+}
+
+.submenu-option {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.submenu-option li {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.submenu-btn:focus, .arrow-btn-submenu:focus {
+  outline: none;
+}
+
+.arrow-btn-submenu {
+  padding: 0 15px;
+}
+
+.drop-link {
+  color: #000000;
+  font-size: 14px !important;
+  font-weight: 300;
+  line-height: 2rem !important;
+  text-decoration: none !important;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.drop-link:hover, .drop-link:active, .drop-link:focus {
+  color: #f0592a !important;
+  text-decoration: none !important;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 576px) {
+  .arrow-btn-submenu {
+    float: right;
+    font-size: 20px;
+  }
+  .navbar-expand-lg.submenu-geral {
+    overflow-y: scroll;
+    max-height: 500px;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: 2px;
+    /* Firefox */
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .navbar-expand-lg.submenu-geral::-webkit-scrollbar {
+    width: 2px;
+    /* background: transparent; */
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  .arrow-btn-submenu {
+    float: right;
+    font-size: 20px;
+  }
+  .navbar-expand-lg.submenu-geral {
+    overflow-y: scroll;
+    max-height: 500px;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: 2px;
+    /* Firefox */
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .navbar-expand-lg.submenu-geral::-webkit-scrollbar {
+    width: 2px;
+    /* background: transparent; */
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  .submenu-option li {
+    padding: 0 15px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  .page-title {
+    width: 275px;
+  }
+  .submenu-link {
+    font-size: 14px !important;
+    margin-left: 9px;
+    line-height: 2rem !important;
+  }
+  .drop-link {
+    font-size: 14px !important;
+  }
+  button.submenu-btn {
+    display: none;
+  }
+  .submenu-option {
+    margin-left: 8px;
+    position: absolute;
+    top: 29px;
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    z-index: 2;
+    background-color: #fff;
+    width: 360px
+  }
+  #lastDrop.submenu-option {
+    right: calc(100% - 194.75px);
+  }
+  #dropLua.submenu-option {
+    width: 257px;
+  }
+  .arrow-btn-submenu {
+    padding: 3px 0 3px 3px;
+    font-size: 16px;
+  }
+  .navbar-expand-lg.submenu-geral {
+    overflow-y: inherit;
+    max-height: none;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+  .page-title {
+    width: 300px;
+  }
+  .submenu-option {
+    margin-left: 13px;
+    position: absolute;
+    top: 29px;
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    z-index: 2;
+    background-color: #fff;
+  }
+  #lastDrop.submenu-option {
+    right: calc(100% - 372.75px);
+  }
+  #dropLua.submenu-option {
+    width: 360px
+  }
+  .submenu-link {
+    font-size: 14px !important;
+    margin-left: 15px;
+  }
+}

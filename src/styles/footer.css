@@ -1,0 +1,83 @@
+.footer {
+  background: #000000;
+}
+
+.footer .fisrt, .footer h3, .footer a.link_footer, .footer .font-size-icon, .footer .second, .footer .third, .footer .p_text_white {
+  color: #fff !important;
+}
+
+.footer .first, .footer .second, .footer .third {
+  margin-top: 40px;
+}
+
+.footer h3 {
+  font-size: 15px !important;
+  line-height: 1.5;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 0.5em;
+}
+
+.footer .font-size-icon {
+  font-size: 24px !important;
+  margin-right: 5%;
+}
+
+.footer .second li, .footer .third li {
+  list-style: none;
+  padding-bottom: 5%;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px !important;
+}
+
+.footer .second.links a {
+  text-decoration: none;
+}
+
+.footer .second.links a:hover {
+  text-decoration: underline;
+}
+
+.footer .textalign_footer {
+  text-align: center;
+}
+
+.footer .p_next_footer {
+  margin-bottom: 1% !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 576px) {
+  .footer .first, .footer .third, .footer .textalign_footer {
+    text-align: left;
+  }
+  .footer .first, .footer .second, .footer .third {
+    margin-bottom: 20px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  .footer .first, .footer .second {
+    margin-bottom: 20px;
+  }
+  .footer .fisrt, .footer .third {
+    text-align: left;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  .footer .first, .footer .second, .footer .third {
+    margin-bottom: 50px;
+  }
+  .footer .third {
+    text-align: left;
+  }
+}

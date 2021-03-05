@@ -1,0 +1,16 @@
+.messages .success-msg,
+.messages .error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.messages .success-msg {
+  color: #86CC3F;
+  background-color: #dff2bf;
+}
+
+.messages .error-msg {
+  color: #D33535;
+  background-color: #ffbaba;
+}

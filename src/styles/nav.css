@@ -1,0 +1,179 @@
+.navbar {
+  background-color: #000000;
+}
+
+.logoSize {
+  width: 60px;
+  height: auto;
+}
+span svg {
+  width: 18px;
+  border-radius: 50%;
+}
+.center {
+  display: block;
+  margin: auto;
+}
+
+.fas.fa-search {
+  color: #ffffff;
+}
+
+.fas.fa-bars {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.linkSide {
+  padding: 0 !important;
+}
+
+.dropdown-menu-dark .dropdown-item.active,
+.dropdown-menu-dark .dropdown-item:active {
+  background-color: transparent;
+}
+
+/* DROPDOWN MENU */
+
+.perfil.dropdown-toggle:after {
+  font-size: 10px !important;
+}
+
+.dropdown-menu-dark {
+  background-color: black;
+}
+ul.dropdown-menu-dark {
+  position: absolute;
+  left: -150px;
+}
+
+/* SIDEMENU */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a,
+.dropdown-btn {
+  padding: 8px 8px 8px 27px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  font-weight: 400;
+
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+  text-decoration: none;
+  color: #f0592a;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px !important;
+  margin-left: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.active a,
+.active {
+  color: #f0592a !important;
+}
+
+.fontLighterMenu a {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  padding-left: 16px !important;
+  text-transform: lowercase;
+}
+
+.fas.fa-chevron-down {
+  display: inline-block;
+}
+
+.MargemSeta {
+  position: absolute;
+  right: 25px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  span svg {
+    width: 16px;
+  }
+}
+
+/*responsive nav*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+  .container.navP{
+    padding: 0 10px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hamburguer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .icons {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  span svg {
+    width: 20px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}

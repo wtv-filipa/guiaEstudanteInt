@@ -1,0 +1,48 @@
+.fundoNologin {
+  background-image: url("../imgs/mapa.svg");
+  max-width: 100%;
+  background-size: cover;
+  height: 40rem;
+}
+
+.fundoNologin .card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: none !important;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .posicionarCard {
+    padding-top: 20%;
+    padding-bottom: 50%;
+  }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .posicionarCard {
+    padding-top: 20%;
+    padding-bottom: 50%;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 992px) {
+  .fundoNologin p {
+      font-size: 18px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .posicionarCard {
+        width: 60%;
+        padding-top: 15%;
+        padding-bottom: 50%;
+      }
+}
+@media (min-width: 1440px) {
+    .posicionarCard {
+        padding-top: 10%;
+        padding-bottom: 50%;
+      }
+}

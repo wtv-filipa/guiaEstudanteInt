@@ -1,0 +1,299 @@
+.cardG-margins {
+  margin-top: 40px;
+}
+
+.cardG-margins .card.tGeral {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 2s;
+  background: none;
+  border: none !important;
+  border-radius: 10px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardG-margins .round-image {
+  position: absolute;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  opacity: 70%;
+}
+
+.cardG-margins .round-image svg {
+  border-radius: 100%;
+  position: relative;
+}
+
+.cardG-margins .card.tGeral .card-body {
+  margin: 0 20px 20px 20px;
+}
+
+.cardG-margins .card.tGeral .card-body h4.card-title {
+  color: black !important;
+  font-weight: 400 !important;
+  margin-bottom: 15px !important;
+}
+
+.cardG-margins .card.tGeral .card-body h4.card-title .aspaT {
+  height: 40px;
+  width: auto;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  opacity: 20%;
+}
+
+.cardG-margins .card.tGeral .card-body h4.card-title .quadrado-vazio {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  opacity: 0;
+}
+
+.cardG-margins .card.tGeral .timeG {
+  margin-bottom: 15px !important;
+}
+
+.cardG-margins .card.tGeral .userInfo-cards {
+  margin-bottom: 36px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.cardG-margins .card.tGeral .userInfo-cards p:nth-child(2) {
+  margin-bottom: 0 !important;
+  font-weight: 400 !important;
+  max-width: 200px;
+  width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 320px) {
+  .cardG-margins .card.tGeral {
+    height: 400px;
+  }
+  .cardG-margins .round-image {
+    top: 280px;
+    left: calc(100% - 130px);
+  }
+  .cardG-margins .round-image svg {
+    width: 160px;
+    height: 160px;
+  }
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 130px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .cardG-margins .card.tGeral {
+    height: 400px;
+  }
+  .cardG-margins .round-image {
+    top: 280px;
+    left: calc(100% - 130px);
+  }
+  .cardG-margins .round-image svg {
+    width: 160px;
+    height: 160px;
+  }
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 130px;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .cardG-margins .card.tGeral {
+    height: 400px;
+  }
+  .cardG-margins .round-image {
+    top: 260px;
+    left: calc(100% - 160px);
+  }
+  .cardG-margins .round-image svg {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .cardG-margins .card.tGeral {
+    height: 380px;
+  }
+  .cardG-margins .round-image {
+    top: 225px;
+    left: calc(100% - 200px);
+  }
+  .cardG-margins .round-image svg {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 240px;
+  }
+  .cardG-margins .card.tGeral {
+    height: 360px;
+  }
+  .cardG-margins .round-image {
+    top: 180px;
+    left: calc(100% - 250px);
+  }
+  .cardG-margins .round-image svg {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 130px;
+  }
+  .cardG-margins .card.tGeral {
+    height: 400px;
+  }
+  .cardG-margins .round-image {
+    top: 245px;
+    left: calc(100% - 180px);
+  }
+  .cardG-margins .round-image svg {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  .cardG-margins .card.tGeral {
+    height: 340px;
+  }
+  .cardG-margins .round-image {
+    top: 140px;
+    left: calc(100% - 220px);
+  }
+  .cardG-margins .round-image svg {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 260px;
+  }
+  .cardG-margins .round-image {
+    top: 120px;
+    left: calc(100% - 240px);
+  }
+  .cardG-margins .round-image svg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 190px !important;
+  }
+  .cardG-margins .round-image {
+    top: 130px;
+    left: calc(100% - 230px);
+  }
+  .cardG-margins .round-image svg {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/*Controlos do Owl slider*/
+
+.testemunhosHome .owl-nav .fas.fa-chevron-circle-left, .testemunhosHome .owl-nav .fas.fa-chevron-circle-right {
+  color: #f0592a;
+}
+
+.testemunhosHome .owl-next:focus, .testemunhosHome .owl-prev:focus {
+  background-color: none !important;
+  outline: none;
+}
+
+.testemunhosHome .owl-theme .owl-nav .owl-prev:hover, .testemunhosHome .owl-theme .owl-nav .owl-next:hover {
+  background: none !important;
+}
+
+.testemunhosHome .owl-nav .fas.fa-chevron-circle-left:hover, .testemunhosHome .owl-nav .fas.fa-chevron-circle-right:hover {
+  background: transparent !important;
+}
+
+.testemunhosHome .owl-carousel.owl-theme.owl-loaded.owl-drag {
+  position: relative;
+}
+
+.testemunhosHome .owl-nav {
+  position: relative;
+  top: -14rem;
+  right: 0;
+  left: 0;
+}
+.testemunhosHome .owl-nav button{
+  padding: initial;
+}
+.testemunhosHome .owl-prev, .testemunhosHome .owl-next {
+  position: absolute;
+  height: 100px;
+  color: inherit;
+  background: none;
+  border: none;
+  z-index: 100;
+  margin: 0 !important;
+}
+
+.testemunhosHome .owl-carousel {
+  width: 101%;
+}
+
+.testemunhosHome .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+  margin-bottom: 10px;
+}
+.testemunhosHome .owl-carousel .owl-stage-outer .owl-stage .owl-item.active {
+  overflow: unset;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+  .testemunhosHome .owl-prev {
+    left: 0;
+  }
+  .testemunhosHome .owl-next {
+    right: 0;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  .testemunhosHome .owl-prev {
+    left: -1.5rem;
+  }
+  .testemunhosHome .owl-next {
+    right: -1.5rem;
+  }
+}

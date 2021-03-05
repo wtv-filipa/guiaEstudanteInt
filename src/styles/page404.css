@@ -1,0 +1,85 @@
+.text404 {
+  margin-bottom: 1rem !important;
+}
+
+.page404 {
+  margin-top: 10%;
+}
+
+.err {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+.page404 .far {
+  color: #000000;
+}
+
+.err2 {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .err {
+    font-size: 7rem;
+  }
+
+  .page404 .far {
+    font-size: 4rem;
+  }
+
+  .err2 {
+    font-size: 7rem;
+  }
+
+  div.col-2.my-auto {
+    padding: 0 0 !important;
+  }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .err {
+    font-size: 7rem;
+  }
+
+  .page404 .far {
+    font-size: 4.5rem;
+  }
+
+  .err2 {
+    font-size: 7rem;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .err {
+    font-size: 9rem;
+  }
+
+  .page404 .far {
+    font-size: 6.5rem;
+  }
+
+  .err2 {
+    font-size: 9rem;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .err {
+        font-size: 11rem;
+      }
+    
+      .page404 .far {
+        font-size: 8.5rem;
+      }
+    
+      .err2 {
+        font-size: 11rem;
+      }
+}
+

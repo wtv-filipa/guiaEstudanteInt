@@ -1,0 +1,25 @@
+.CloseBtnStyle {
+    color: #f0592a !important;
+    border-radius: 20px !important;
+}
+.CloseBtnStyle:hover {
+    background-color: #f0592a !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+
+.padd_modal {
+    padding: 0 30px 0 30px !important;
+}
+
+.MuiDialogTitle-root, .MuiDialogActions-root {
+    padding: 25px 30px !important;
+}
+
+.MuiDialogActions-root {
+    padding: 20px 30px !important;
+}
+
+.MuiButton-root {
+    padding: 10px !important;
+}

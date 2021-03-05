@@ -1,0 +1,921 @@
+/* Testemunhos filtro */
+
+.testemunho .card {
+  padding: 2rem 0 1rem 0;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+  background: none;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.testemunho .btnForm {
+  background-color: #f0592a;
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  width: 4rem;
+}
+
+.testemunho .far {
+  font-family: "Font Awesome 5 Pro" !important;
+  color: white;
+}
+
+.testemunho select {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #ffffff !important;
+}
+
+/*Testemunhos gerais*/
+
+.TestCarHome {
+  text-decoration: none;
+}
+
+.cardG-margins {
+  margin-top: 40px;
+}
+
+.cardG-margins .card.tGeral {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 2s;
+  background: none;
+  border: none !important;
+  border-radius: 10px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardG-margins .round-image {
+  position: absolute;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  opacity: 80%;
+  z-index: -1;
+}
+
+.cardG-margins .round-image svg {
+  border-radius: 100%;
+  position: relative;
+}
+
+.cardG-margins .card.tGeral .card-body {
+  margin: 0 20px 20px 20px;
+}
+
+.cardG-margins .card.tGeral .card-body h4.card-title {
+  color: black !important;
+  font-weight: 400 !important;
+  margin-bottom: 15px !important;
+}
+
+.cardG-margins .card.tGeral .card-body h4.card-title .aspaT {
+  height: 40px;
+  width: auto;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  opacity: 20%;
+}
+
+.cardG-margins .card.tGeral .card-body h4.card-title .quadrado-vazio {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  opacity: 0;
+}
+
+.cardG-margins .card.tGeral .timeG {
+  margin-bottom: 15px !important;
+}
+
+.cardG-margins .card.tGeral .userInfo-cards {
+  margin-bottom: 36px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.cardG-margins .card.tGeral .userInfo-cards p:nth-child(2) {
+  margin-bottom: 0 !important;
+  font-weight: 400 !important;
+  max-width: 200px;
+  width: 100%;
+}
+
+
+
+/*Meus testemunhos*/
+
+.cardP-margins {
+  margin-top: 43px;
+}
+
+.cardP-margins .card.Tpessoal {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 2s;
+  background: none;
+  padding-top: 5%;
+  border: none !important;
+  border-radius: 10px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardP-margins .card.Tpessoal div.text-end {
+  margin-right: 15px;
+}
+
+.cardP-margins .Tpessoal .card-body {
+  text-decoration: none;
+  margin: 0 20px 20px 20px;
+}
+
+.cardP-margins .Tpessoal .card-body h4.card-title {
+  font-weight: 400 !important;
+}
+
+.cardP-margins .Tpessoal .card-body h4.card-title .aspaT {
+  height: 40px;
+  width: auto;
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  opacity: 20%;
+}
+
+.cardP-margins .Tpessoal .card-body h4.card-title .quadrado-vazio {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  opacity: 0;
+}
+
+.cardP-margins .card.Tpessoal .userInfoP-cards {
+  margin-bottom: 36px;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.cardP-margins .Tpessoal .card-body p:first-child {
+  margin-bottom: 15px !important;
+}
+
+.cardP-margins .iconStyle {
+  height: auto;
+  margin-right: 1rem;
+  color: #f0592a;
+  font-family: "Font Awesome 5 Pro" !important;
+}
+
+.cardP-margins button.fa-trash:focus {
+  outline: none !important;
+}
+
+.cardP-margins .CloseBtnStyle {
+  color: #f0592a !important;
+}
+
+.cardP-margins .CloseBtnStyle:hover {
+  background-color: #f0592a !important;
+  color: white !important;
+}
+
+/*Testemunho Individual*/
+
+.box-invisible {
+  position: relative;
+  overflow: hidden;
+}
+
+.testInd .aspaLolc {
+  position: relative;
+}
+
+.testInd .aspaT {
+  height: 40px;
+  width: auto;
+  position: absolute;
+  opacity: 20%;
+  top: -20px;
+}
+
+.testInd .quadrado-vazio {
+  width: 40px;
+  height: 10px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  opacity: 0;
+}
+
+.testInd .round-image {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.testInd .round-image svg {
+  border-radius: 100%;
+  position: relative;
+}
+
+.userInfo-tI {
+  bottom: 0;
+  margin-bottom: 7%;
+}
+
+.userInfo-tI .testIndTitulo {
+  font-weight: 400 !important;
+  color: black !important;
+}
+
+.imgInd {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/*Botão de filtro*/
+
+.btnFilter {
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropFilter {
+  margin-bottom: 1.5rem;
+}
+
+.dropdown-toggle::after {
+  content: "\f078";
+  font-family: "FontAwesome";
+  vertical-align: middle;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+/*Página onde se escolhe o tipo de testemunho*/
+
+.fundo_escolha {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  margin-top: 43px;
+  background: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: none !important;
+  border-radius: 10px;
+  min-height: 100%;
+}
+
+/*FORMS*/
+
+.testemunhoText .mandatory {
+  color: #f0592a !important;
+}
+
+.testemunhoText .card {
+  padding: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background: none;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.testemunhoText textarea#Testemunho {
+  height: 20rem;
+}
+
+.testemunhoText textarea#Frase {
+  height: 10rem;
+}
+
+.testemunhoText .btnForm {
+  background-color: #f0592a;
+  color: #ffffff;
+  border-radius: 20px;
+  width: 10rem;
+}
+.testemunhoText .btnForm:hover, .testemunhoText .btnFormCancelar:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testemunhoText .btnFormCancelar {
+  margin-right: 10px;
+  color: #f0592a;
+  background-color: #ffffff;
+  border: 1px solid #f0592a;
+  border-radius: 20px;
+  width: 10rem;
+}
+
+/*INPUTS FOMRS*/
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 320px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 58%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 80%;
+  }
+  .iconSize {
+    width: 7%;
+  }
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 490px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 510px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 360px;
+    left: calc(100% - 150px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 390px;
+    left: calc(100% - 130px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 180px;
+    height: 180px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 160px;
+    height: 160px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    max-width: 160px;
+    width: 100%;
+  }
+  .testemunho select {
+    margin-bottom: 5%;
+  }
+  .testemunho .btnForm{
+    margin-right: 6%;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 490px;
+  }
+  /*Testemunho Individual*/
+  .testInd .row div.col-md-4 {
+    margin-bottom: 20px;
+  }
+  .box-invisible {
+    float: right;
+    height: 60%;
+    top: 25%;
+  }
+  .testInd .round-image {
+    left: 15px;
+  }
+  .testInd .round-image svg {
+    width: 110px;
+    height: 110px;
+  }
+  /*Escolha*/
+  .paddingEscolha {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 63%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 81.5%;
+  }
+  .iconSize {
+    width: 7%;
+  }
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 480px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 500px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 350px;
+    left: calc(100% - 150px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 380px;
+    left: calc(100% - 130px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 180px;
+    height: 180px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 160px;
+    height: 160px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 160px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 190px;
+  }
+  .testemunho select {
+    margin-bottom: 5%;
+  }
+  .testemunho .btnForm{
+    margin-right: 6%;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 460px;
+  }
+  /*Testemunho Individual*/
+  .testInd .row div.col-md-4 {
+    margin-bottom: 20px;
+  }
+  .box-invisible {
+    float: right;
+    height: 75%;
+    top: 10%;
+  }
+  .testInd .round-image {
+    left: 15px;
+  }
+  .testInd .round-image svg {
+    width: 140px;
+    height: 140px;
+  }
+  .userInfo-tI {
+    margin-top: 5px;
+  }
+  /*Escolha*/
+  .paddingEscolha {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 430px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 440px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 280px;
+    left: calc(100% - 165px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 300px;
+    left: calc(100% - 150px);
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 190px;
+    height: 190px;
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 200px;
+    height: 200px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 160px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 190px;
+  }
+  .testemunho select {
+    margin-bottom: 5%;
+  }
+  .testemunho .btnForm{
+    margin-right: 6%;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 410px;
+  }
+  /*Testemunho Individual*/
+  .box-invisible {
+    height: 75%;
+  }
+  .testInd .round-image svg {
+    width: 150px;
+    height: 150px;
+  }
+  .userInfo-tI {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 69.5%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 85.5%;
+  }
+  .iconSize {
+    width: 5%;
+  }
+  /*Testemunhos Gerais*/
+  .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 380px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 420px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 210px;
+    left: calc(100% - 190px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 240px;
+    left: calc(100% - 210px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 240px;
+    height: 240px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 250px;
+    height: 250px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .testemunho select {
+    margin-bottom: 5%;
+  }
+  .testemunho .btnForm{
+    margin-right: 6%;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 390px;
+  }
+  /*Escolha*/
+  .paddingEscolha {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /*Testemunho Individual*/
+  .box-invisible {
+    height: 75%;
+  }
+  .testInd .round-image {
+    left: 35px;
+  }
+  .testInd .round-image svg {
+    width: 230px;
+    height: 230px;
+  }
+  .userInfo-tI {
+    margin-top: 75px;
+    width: 250px;
+  }
+  .userInfo-tI .ICurso {
+    margin-bottom: 7% !important;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 73.5%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 85.5%;
+  }
+  .iconSize {
+    width: 6%;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 350px;
+  }
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 330px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 360px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 120px;
+    left: calc(100% - 240px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 140px;
+    left: calc(100% - 240px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 300px;
+    height: 300px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 300px;
+    height: 300px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 270px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 270px;
+  }
+  .testemunho select {
+    margin-bottom: 5%;
+  }
+  .testemunho .btnForm{
+    margin-right: 6%;
+  }
+  /*Escolha*/
+  .paddingEscolha {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /*Testemunho Individual*/
+  .box-invisible {
+    height: 75%;
+  }
+  .userInfo-tI {
+    width: 100%;
+    margin-top: 70px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 63%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 82.5%;
+  }
+  .iconSize {
+    width: 5%;
+  }
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 420px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 440px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 280px;
+    left: calc(100% - 145px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 310px;
+    left: calc(100% - 145px);
+  }
+  .testG .cardG-margins .round-image svg, .TestCarHome .cardG-margins .round-image svg {
+    width: 180px;
+    height: 180px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .testemunho select {
+    margin-bottom: 0;
+  }
+  .testemunho .btnForm{
+    margin-right: 0;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 430px;
+  }
+  /*Testemunho Individual*/
+  .testInd .row div.col-md-4 {
+    position: relative;
+  }
+  .box-invisible {
+    float: unset;
+    height: 33%;
+    margin-bottom: 15%;
+    top: 0;
+  }
+  .testInd .round-image {
+    left: -30px;
+  }
+  .userInfo-tI {
+    margin-top: 20px;
+  }
+  .testInd .round-image svg {
+    width: 220px;
+    height: 220px;
+  }
+  /*Escolha*/
+  .paddingEscolha {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 71%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 85.5%;
+  }
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 360px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 380px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 180px;
+    left: calc(100% - 190px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 170px;
+    left: calc(100% - 220px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 240px;
+    height: 240px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 280px;
+    height: 280px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 240px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 370px;
+  }
+  /*Testemunhos Individuais*/
+  .testInd .row div.col-md-4 {
+    position: relative;
+  }
+  .box-invisible {
+    float: unset;
+    height: 42%;
+    margin-bottom: 15%;
+  }
+  .testInd .round-image {
+    left: -30px;
+  }
+  .IDate {
+    margin-bottom: 0 !important;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 75%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 86.5%;
+  }
+  /*Testemunhos Gerais*/
+  .testG .cardG-margins .card.tGeral {
+    height: 360px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 140px;
+    left: calc(100% - 210px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 135px;
+    left: calc(100% - 240px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 260px;
+    height: 260px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 300px;
+    height: 300px;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 440px;
+  }
+  /*Testemunhos Individuais*/
+  .box-invisible {
+    margin-bottom: 10%;
+    height: 45%;
+  }
+  .testInd .round-image svg {
+    width: 240px;
+    height: 240px;
+  }
+  .testInd .userInfo-tI {
+    background: white;
+    bottom: 80px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .dropFirst .dropdown-toggle::after {
+    margin-left: 78%;
+  }
+  .dropSecond .dropdown-toggle::after {
+    margin-left: 88%;
+  }
+  /*Escolha*/
+  .paddingEscolha {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  /*Testemunhos Gerais*/
+  .TestCarHome .cardG-margins .card.tGeral {
+    height: 370px;
+  }
+  .testG .cardG-margins .card.tGeral {
+    height: 330px;
+  }
+  .TestCarHome .cardG-margins .round-image {
+    top: 190px;
+    left: calc(100% - 200px);
+  }
+  .testG .cardG-margins .round-image {
+    top: 90px;
+    left: calc(100% - 260px);
+  }
+  .TestCarHome .cardG-margins .round-image svg {
+    width: 240px;
+    height: 240px;
+  }
+  .testG .cardG-margins .round-image svg {
+    width: 330px;
+    height: 330px;
+  }
+  .TestCarHome .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  .testG .cardG-margins .card.tGeral .userInfo-cards p {
+    width: 200px;
+  }
+  /* Meus testemunhos */
+  .cardP-margins .card.Tpessoal {
+    height: 380px;
+  }
+  /*Testemunhos Individuais*/
+  .box-invisible {
+    height: 52%;
+  }
+  .testInd .round-image svg {
+    width: 300px;
+    height: 300px;
+  }
+  .testInd .userInfo-tI {
+    background: white;
+    bottom: 80px;
+    position: relative;
+  }
+  .testInd h3 {
+    font-size: 28px !important;
+    padding-top: 20px;
+  }
+  .testInd .ICurso {
+    font-size: 20px !important;
+  }
+  .testInd .IDate {
+    margin-bottom: 3% !important;
+    font-size: 20px !important;
+  }
+  .testInd div .col-12.col-md-8 p {
+    font-size: 20px !important;
+  }
+}
